@@ -1,5 +1,8 @@
-FROM node:8.4
+FROM jenkinsci/blueocean
 COPY . /app
-WORKDIR /app
-RUN ["npm", "install"]
-EXPOSE 3000/tcp
+WORKDIR /
+USER root
+RUN apk update && apk add nodejs && apk add npm && apk add yarn
+RUN node -v && npm -v && yarn -v
+EXPOSE 8080/tcp
+CMD node -v
