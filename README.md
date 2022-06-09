@@ -4,4 +4,7 @@
 ## Run
 
 `docker run -p 8080:8080 jenkins-blueocean-nodejs`
-[more](https://hub.docker.com/r/jenkinsci/blueocean)
+
+## More
+[jenkinsci/blueocean](https://hub.docker.com/r/jenkinsci/blueocean)
+[chenjiajing23/jenkins-blueocean-nodejs](https://hub.docker.com/repository/docker/chenjiajing23/jenkins-blueocean-nodejs)
