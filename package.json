@@ -1,5 +1,5 @@
 {
-  "name": "jenkins-nodejs",
+  "name": "jenkins-blueocean-nodejs",
   "version": "1.0.0",
   "description": "jenkinsci/blueocean Support Nodejs Npm Yarn",
   "scripts": {
