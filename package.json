@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "jenkinsci/blueocean Support Nodejs Npm Yarn",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "docker image build -t jenkins-blueocean-nodejs .",
+    "push": "docker image push chenjiajing23/jenkins-blueocean-nodejs"
   },
   "keywords": ["jenkinsci/blueocean", "Nodejs"],
   "author": "Chen JiaJing",
