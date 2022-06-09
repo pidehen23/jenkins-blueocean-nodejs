@@ -4,6 +4,7 @@
   "description": "jenkinsci/blueocean Support Nodejs Npm Yarn",
   "scripts": {
     "build": "docker image build -t jenkins-blueocean-nodejs .",
+    "tag": "docker image tag jenkins-blueocean-nodejs chenjiajing23/jenkins-blueocean-nodejs",
     "push": "docker image push chenjiajing23/jenkins-blueocean-nodejs"
   },
   "keywords": ["jenkinsci/blueocean", "Nodejs"],
