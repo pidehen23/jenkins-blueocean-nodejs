@@ -7,4 +7,4 @@
 
 ## More
 [jenkinsci/blueocean](https://hub.docker.com/r/jenkinsci/blueocean)
-[chenjiajing23/jenkins-blueocean-nodejs](https://hub.docker.com/repository/docker/chenjiajing23/jenkins-blueocean-nodejs)
+[jenkins-blueocean-nodejs](https://hub.docker.com/r/chenjiajing23/jenkins-blueocean-nodejs)
